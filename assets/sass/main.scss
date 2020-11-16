@@ -10,73 +10,32 @@
 
 // Breakpoints.
 
-@include breakpoints(
-    (
-        xlarge: (
-            1281px,
+@include breakpoints((xlarge: (1281px,
             1680px,
         ),
-        large: (
-            981px,
+        large: (981px,
             1280px,
         ),
-        medium: (
-            737px,
+        medium: (737px,
             980px,
         ),
-        small: (
-            481px,
+        small: (481px,
             736px,
         ),
-        xsmall: (
-            361px,
+        xsmall: (361px,
             480px,
         ),
-        xxsmall: (
-            null,
+        xxsmall: (null,
             360px,
         ),
-    )
-);
+    ));
 
 //Map
 
 /* Set the size of the div element that contains the map */
-#map {
-    display: flex;
-    left: 60%;
-    height: 250px;
-    /* The height is 400 pixels */
-    width: 40%;
-    /* The width is the width of the web page */
-}
-.corral_map_title {
-    margin-left: 37em;
-    margin-top: 3em;
-}
-#price-list {
-    display: block;
-    left: 0%;
-    height: 250px;
-    margin-top: -7em;
-}
-.nursery_prices_title {
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: repeat(auto, 30px);
-    grid-column: 2 / 2;
-    grid-row: 3 / 3;
-    justify-content: center;
-    align-items: center;
-    text-align: right;
-    margin-top: 3em;
-}
-.overlay {
-    position: absolute;
-    z-index: 2;
-}
-.main_title {
-    margin-top: -4em;
-}
+
+
+
 
 // Base.
 
@@ -103,6 +62,9 @@
 @import "components/spotlights";
 @import "components/table";
 @import "components/wrapper";
+@import"components/nurseryprices";
+@import"components/corralmap";
+// @import"components/maintitleoverlay";
 
 // Layout.
 

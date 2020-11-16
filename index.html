@@ -7,6 +7,9 @@
 <head>
     <title>OK Xmas Tree Corral</title>
     <meta charset="utf-8" />
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="tree farm, tree nursery, christmas trees, trees" <meta name="description"
+        content="Ok Corral Tree Farm, Tree Farm in Okanogan valley of Washington State">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript>
@@ -35,45 +38,35 @@
     <div id="wrapper">
         <!-- Intro -->
         <section id="intro" class="wrapper style1 fullscreen fade-up">
+
             <div class="inner">
-                <a href="#" class="image"><img src="images/aerial_snowy_tree.jpg" width="100%" height="auto" alt=""
-                        data-position="center center" /></a>
-                <div class="overlay">
-                    <h1 class="main_title">OK CORRAL TREE FARM</h1>
+                <div id="#overlay">
+                    <h1 class="main_title" style="letter-spacing: .1em; font-size: 300%">OK CORRAL TREES</h1>
                 </div>
+                <a href="#" class="image"><img src="images/aerial_snowy_tree.jpg" width="105%" height="auto" alt=""
+                        data-position="center center" /></a>
+
                 <h2>
-                    Fresh locally-grown Christmas trees U-CUT since 2002
+                    Fresh U-CUT Christmas trees since 2002!
                     <br />
                 </h2>
-                <h2>
-                    Nursery Stock Reservations Available NOW FOR SPRING!
-                </h2>
                 <h2 class="nursery_prices_title">
-                    <a href="images/Copy of Wholesale Evergreen Pricing 2020.pdf"><a title="Price List" class="image"
-                            href="images/Copy of Wholesale Evergreen Pricing 2020.pdf">Nursery Price <br /></a>
-                        List Form</a>
-                    <!-- <a
-                            href="images/Copy of Wholesale Evergreen Pricing 2020.pdf"
-                            class="image"
-                        >
-                            <img
-                                src="images/Copy of Wholesale Evergreen Pricing 2020.pdf"
-                                alt=""
-                                data-position="center center"
-                            />
-                        </a> -->
+                    RESERVE NURSERY STOCK NOW <br>
+
+                    <h2 class="price_list"> <a href="images/Price_List.pdf" width="40%">Nursery Inventory <br />
+                        </a>
+                    </h2>
+
+
                 </h2>
-                <div id="price-list">
-                    <ul class="actions">
-                        <li>
-                            <a href="images/Copy of Wholesale Evergreen Pricing 2020.pdf" class="image"><img
-                                    src="images/buddy.JPG" alt="" data-position="center center" /></a>
-                        </li>
-                    </ul>
-                </div>
-                <h3 class="corral_map_title">OK Corral Tree Farm</h3>
+
+                <!-- <h3 class="corral_map_title">OK Corral Tree Farm</h3> -->
                 <!--The div element for the map -->
-                <div id="map"></div>
+                <div id="map">
+                    <iframe src=""
+                        https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804"
+                        width="600" height="450" frameborder="0" style="border:0"></iframe>"
+                </div>
                 <ul class="actions">
                     <li>
                         <a href="generic.html" class="button scrolly">Learn more</a>
@@ -90,7 +83,7 @@
                 <div class="content">
                     <div class="inner">
                         <h1>
-                            Proudly growing Christmas trees since 2002...
+                            Proudly growing Christmas trees for Okanogan communities...
                         </h1>
                         <h2>Cut down your own tree--with our help!</h2>
                         <p>
@@ -124,12 +117,12 @@
                 </div>
             </section>
             <section>
-                <a href="#" class="image"><img src="images/table_tree2.jpg" alt="" data-position="25% 25%" /></a>
+                <a href="#" class="image"><img src="images/buddy.jpg" alt="" data-position="25% 25%" /></a>
                 <div class="content">
                     <div class="inner">
-                        <h2>Little trees bring joy, too!</h2>
+                        <h2>We grow healthy trees!</h2>
                         <p>
-                            No cutting required for these little beauties.
+                            Little trees bring joy, too!
                         </p>
                         <ul class="actions">
                             <li>
@@ -142,7 +135,7 @@
         </section>
 
         <!-- Two -->
-        <section id="two" class="wrapper style3 fade-up">
+        <section id="two" class="wrapper style1 fade-up">
             <div class="inner">
                 <h2>We Cultivate and Grow all Kinds of Trees</h2>
                 <p>
@@ -215,7 +208,7 @@
         </section>
 
         <!-- Three -->
-        <section id="three" class="wrapper style1 fade-up">
+        <section id="three" class="wrapper style3 fade-up">
             <div class="inner">
                 <h2>Get in touch</h2>
                 <p>
@@ -226,7 +219,7 @@
                 </p>
                 <div class="split style1">
                     <section>
-                        <form method="post" action="data-netlify=true ">
+                        <form method="post" action="POST" data-netlify="true">
                             <div class="fields">
                                 <div class="field half">
                                     <label for="name">Name</label>
@@ -242,15 +235,17 @@
                                     <textarea name="message" id="message" placeholder="Enter your message"
                                         rows="5"></textarea>
                                 </div>
-                            </div>
-                            <ul class="actions">
-                                <li>
-                                    <a href="" class="button submit">Send Message</a>
-                                </li>
-                                <li>
-                                    <input type="reset" value="Reset" />
-                                </li>
-                            </ul>
+                                <div class="field">
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>
+                                <ul class="actions">
+                                    <li>
+                                        <a href="" class="button submit">Send Message</a>
+                                    </li>
+                                    <li>
+                                        <input type="reset" value="Reset" />
+                                    </li>
+                                </ul>
                         </form>
                     </section>
                     <section>
@@ -269,56 +264,6 @@
                                 <h3>Phone</h3>
                                 <span>(509) 322-0851</span>
                             </li>
-                            <!-- <li>
-                                    <h3>Social</h3>
-                                    <ul class="icons">
-                                        <li>
-                                            <a
-                                                href="#"
-                                                class="icon brands fa-twitter"
-                                                ><span class="label"
-                                                    >Twitter</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                class="icon brands fa-facebook-f"
-                                                ><span class="label"
-                                                    >Facebook</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                class="icon brands fa-github"
-                                                ><span class="label"
-                                                    >GitHub</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                class="icon brands fa-instagram"
-                                                ><span class="label"
-                                                    >Instagram</span
-                                                ></a
-                                            >
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="#"
-                                                class="icon brands fa-linkedin-in"
-                                                ><span class="label"
-                                                    >LinkedIn</span
-                                                ></a
-                                            >
-                                        </li>
-                                    </ul>
-                                </li> -->
                         </ul>
                     </section>
                 </div>

@@ -7,16 +7,17 @@
 /* Header */
 
 	#header {
+	
 		@include vendor('display', 'flex');
 		background-color: _palette(accent1);
 		cursor: default;
-		padding: 1.75em 2em;
+		padding: 1.25em 2em;
 
 		> .title {
 			border: 0;
-			color: _palette(fg-bold);
+			color: _palette(-bold);
 			display: block;
-			font-size: 1.25em;
+			font-size: 1.50em;
 			font-weight: _font(weight-bold);
 		}
 
