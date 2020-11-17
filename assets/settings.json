@@ -1,0 +1,50 @@
+{
+    "editor.fontSize": 14,
+    "editor.rulers": [140],
+    "editor.formatOnSave": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "css.lint.float": "warning",
+    "markdown.preview.fontSize": 14,
+    "emmet.showExpandedAbbreviation": "always",
+    "liveServer.settings.CustomBrowser": "firefox developer edition",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#808080",
+        "editor.wordHighlightBackground": "#808080"
+    },
+    "editor.fontWeight": "bold",
+    "editor.renderControlCharacters": true,
+    "autoprefixer.formatOnSave": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.wordWrap": "on",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "open-in-browser.default": "firefox developer edition",
+    "liveServer.settings.useBrowserPreview": false,
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "open-php-html-js-in-browser.selectedBrowser": "firefox developer edition",
+    "better-comments.highlightPlainText": false,
+    "better-comments.tags": [{
+            "tag": "//",
+            "color": "red",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "*",
+            "color": "green",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }
+    ],
+    "liveSassCompile.settings.formats": [{
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": null
+    }],
+    "window.zoomLevel": 1,
+    "files.autoSave": "afterDelay",
+    "editor.renderWhitespace": "all"
+
+
+}

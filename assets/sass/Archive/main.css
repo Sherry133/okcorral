@@ -3076,7 +3076,7 @@ body.is-preload .wrapper.fade-down > .inner {
 body.is-preload .wrapper.fade > .inner {
   opacity: 0;
 }
-
+/* 
 .nursery_prices_title h3 a {
   color: red;
   text-align: right;
@@ -3112,7 +3112,7 @@ body.is-preload .wrapper.fade > .inner {
     width: 40%;
     height: 50%;
   }
-}
+} */
 
 /* Header */
 #header {
