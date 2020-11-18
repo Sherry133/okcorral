@@ -208,15 +208,43 @@
                 </p>
                 <div class="split style1">
                     <section>
-                        <form name="Contact" method="post" action="POST" data-netlify="true">
+                        <form method="post" action="POST" data-netlify="true">
                             <div class="fields">
                                 <div class="field half">
                                     <label for="name">Name</label>
-                                    <input type="text" name="name" id="name" value="" placeholder="Your Name" />
+                                    <input type="text" name="name" id="name" />
                                 </div>
                                 <div class="field half">
                                     <label for="email">Email</label>
-                                    <input type="email" name="email" id="email" value=""
+                                    <input type="email" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="4"></textarea>
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <input type="file" name="Attachment" id="myfile" placeholder="Upload File"
+                                        rows="4"></input>
+                                </div>
+                                <div class="field">
+                                    <div data-netlify-recaptcha="true"></div>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send Message" class="primary" /></li>
+                                <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                        </form>
+                        <!-- <form name="Contact" method="post" action="POST" data-netlify="true">
+                            <div class="fields">
+                                <div class="field half">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" placeholder="Your Name" />
+                                </div>
+                                <div class="field half">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" 
                                         placeholder="juan@example.com" />
                                 </div>
                                 <div class="field">
@@ -233,13 +261,13 @@
                                 </div>
                                 <ul class="actions">
                                     <li>
-                                        <a href="" class="button submit">Send Message</a>
+                                        <a href="#" class="button submit">Send Message</a>
                                     </li>
                                     <li>
                                         <input type="reset" value="Reset" />
                                     </li>
                                 </ul>
-                        </form>
+                        </form> -->
                     </section>
                     <section>
                         <ul class="contact">
