@@ -208,7 +208,7 @@
                 </p>
                 <div class="split style1">
                     <section>
-                        <form method="post" action="POST" data-netlify="true">
+                        <form name="Contact" method="post" action="POST" data-netlify="true">
                             <div class="fields">
                                 <div class="field half">
                                     <label for="name">Name</label>
@@ -223,6 +223,10 @@
                                     <label for="message">Message</label>
                                     <textarea name="message" id="message" placeholder="Enter your message"
                                         rows="5"></textarea>
+                                </div>
+                                <div class="field half">
+                                    <input type="checkbox" id="demo-human" name="demo-human" unchecked>
+                                    <label for="demo-human"> Not a Robot</label>
                                 </div>
                                 <div class="field">
                                     <div data-netlify-recaptcha="true"></div>
