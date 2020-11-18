@@ -2769,7 +2769,7 @@ body.is-ie .spotlights > section {
 .spotlights > section > .image:before {
   -webkit-transition: opacity 2s ease;
   transition: opacity 2s ease;
-  background: rgba(49, 36, 80, 0.9);
+  background: rgba(49, 36, 80, 0.3);
   content: '';
   display: block;
   height: 100%;
